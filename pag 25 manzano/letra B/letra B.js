@@ -1,0 +1,9 @@
+// Ler uma temperatura em graus Fahrenheit e apresentá-la convertida em graus Celsius. A fórmula de
+// conversão é C = (F - 32) * (5/9) , sendo F a temperatura em Fahrenheit e C a temperatura em Celsius
+
+var F = parseInt(prompt('Digite um valor em F para C: '));
+var formulaC
+
+formulaC = (F - 32) * (5 / 9)
+
+alert('O valor convertido é: ' + formulaC)
